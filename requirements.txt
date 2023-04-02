@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+matplotlib
+seaborn
+xgboost
+Flask
+requests
+pickle
+numpy
+xgboost
+gunicorn
