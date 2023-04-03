@@ -13,7 +13,7 @@ import numpy as np
 import sklearn
 from sklearn.preprocessing import StandardScaler
 
-app = Flask(__name__,template_folder='templates')
+app = Flask(__name__)   # template_folder='templates'
 
 with open("xgb_model.pkl", "rb") as f:
     xgb_model = pickle.load(f)
