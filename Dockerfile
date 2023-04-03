@@ -10,7 +10,7 @@ RUN pip install -r requirements.txt
 # we need a access a port of the container which has our web application , $ PORT allows the cloud to automatically assign a port 
 EXPOSE $PORT         
 
-CMD gunicorn --workers=4 --bind 0.0.0.0 :$PORT app:app  
+CMD gunicorn --workers=4 --bind 0.0.0.0:$PORT app:app  
 
 #gunicorn helps to run the python app in the heroku cloud
 # workers is used to divide requests , so if we have 1000 requests, 250 requests will be satisfied by each worker

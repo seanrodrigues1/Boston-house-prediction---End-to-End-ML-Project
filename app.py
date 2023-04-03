@@ -20,7 +20,7 @@ with open("xgb_model.pkl", "rb") as f:
     
 scalar=pickle.load(open('scaling.pkl','rb'))
 
-@app.route('/',methods=['GET'])
+@app.route('/')           #,methods=['GET']
 def Home():
     return render_template('home.html')
 
