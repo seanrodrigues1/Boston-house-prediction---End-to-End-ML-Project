@@ -5,7 +5,6 @@ seaborn
 xgboost
 Flask
 requests
-pickle
 numpy
 xgboost
 gunicorn
