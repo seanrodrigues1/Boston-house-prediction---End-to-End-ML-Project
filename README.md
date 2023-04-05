@@ -28,5 +28,7 @@ STEPS:
  c. click on new repo secret again, type HEROKU_API_KEY in the secret name , and the api key in the secret section.To get the api key of heroku, go to account settings(top right),scroll down and you will find the api key
 
  YOU HAVE SET UP GITHUB ACTIONS
+  
+  Now anything any updates you make and push to github gets pushed to the cloud and you will see the changes there
  
 
